@@ -43,8 +43,7 @@ where
         }
     }
 
-    #[cfg(test)]
-    pub(crate) fn rx_is_some(&self) -> bool {
+    pub fn rx_is_some(&self) -> bool {
         self.rx.is_some()
     }
 
